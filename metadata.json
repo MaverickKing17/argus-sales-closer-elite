@@ -1,0 +1,7 @@
+{
+  "name": "Argus Sales Closer - Elite Real Estate Intelligence",
+  "description": "The premier AI-driven GCI protection suite for elite Canadian real estate professionals. Featuring a luxury Midnight Navy interface, real-time lead interception, and CASL-compliant handshake protocols.",
+  "requestFramePermissions": [
+    "geolocation"
+  ]
+}

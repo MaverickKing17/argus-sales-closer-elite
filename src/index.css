@@ -1,0 +1,59 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Segoe UI", "Frutiger", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+  --font-serif: "Cormorant Garamond", serif;
+
+  --color-argus-bg: #0B1221;
+  --color-argus-surface: #121B2E;
+  --color-argus-ink: #F1F5F9;
+  --color-argus-accent: #C5A059; /* Champagne Gold */
+  --color-argus-border: rgba(255, 255, 255, 0.06);
+  --color-argus-success: #4ADE80;
+  --color-argus-warning: #FB923C;
+  --color-argus-muted: #71717A;
+}
+
+@layer base {
+  body {
+    @apply bg-argus-bg text-argus-ink font-sans antialiased;
+  }
+}
+
+@layer components {
+  .data-grid-row {
+    @apply grid grid-cols-[1fr_1fr_1fr_2fr_1fr] p-4 border-b border-argus-border hover:bg-white/5 transition-colors cursor-pointer items-center;
+  }
+
+  .glass-card {
+    @apply bg-argus-surface/80 backdrop-blur-md border border-argus-border rounded-xl shadow-2xl;
+  }
+
+  .mono-label {
+    @apply font-mono text-[10px] uppercase tracking-widest text-argus-muted;
+  }
+
+  .status-pill {
+    @apply px-2 py-0.5 rounded-full text-[10px] font-bold uppercase tracking-tighter;
+  }
+
+  .input-dark {
+    @apply bg-white/5 border border-white/10 rounded-lg px-4 py-2 text-xs focus:ring-1 focus:ring-argus-accent/50 outline-none transition-all;
+  }
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 10px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(255, 255, 255, 0.2);
+}
