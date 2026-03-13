@@ -1,20 +1,2 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
-
-# Run and deploy your AI Studio app
-
-This contains everything you need to run your app locally.
-
-View your app in AI Studio: https://ai.studio/apps/b4552b60-b08a-4c63-96dd-0eee19299c9b
-
-## Run Locally
-
-**Prerequisites:**  Node.js
-
-
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+🛡️ ARGUS Sales Closer: Elite Real Estate IntelligenceARGUS Sales Closer is an AI-driven Sales Concierge and Lead Intelligence platform engineered for high-volume, luxury real estate brokerages. Designed to protect and scale Gross Commission Income (GCI), ARGUS provides real-time oversight of lead interactions, sentiment analysis, and instant qualification.💎 Core Features🧠 Lead Intelligence CoreThe interaction matrix provides a live "Pulse" of all active conversations. It categorizes prospects by:Asset Class: Intelligent sorting for Penthouses, Detached, Commercial, and Condos.Real-Time Sentiment: Visual indicators (HOT/WARM/NEUTRAL/COLD) based on intercepted message intent.Temporal Tracking: Precise timing of the last interaction to ensure no lead goes cold.🛡️ GCI Protection SuiteLive Encounters: Real-time monitoring of AI-handled conversations across your entire territory.Response Latency: Sub-10s benchmark tracking. Currently operating at an instant 6.3s average to ensure elite-level client service.GCI Guard: Track your projected and protected commission volume directly from the main dashboard.🎯 Elite Profiling & QualificationDeep-dive into individual prospects with the Elite Profile view:Asset Parameters: Instant access to contact details and specific property interests.Qualification Index: A proprietary percentage-based score (e.g., 88% Qualified) to help agents prioritize their highest-value appointments.🛠️ Tech StackOrchestration: Voiceflow / AI Agent LogicIntelligence: Custom LLM nodes for Toronto-specific real estate market dataFrontend: Next.js (Tailored for Vercel deployment)Monitoring: Live AI Oversight Protocol📈 Performance BenchmarksMetricBenchmarkARGUS PerformanceResponse Time< 10.0s6.3sGCI ProtectionVariable$1.4M+ ProtectedLead SentimentManualAutomated Real-Time🚀 Getting StartedClone the RepositoryBashgit clone https://github.com/your-username/argus-sales-closer-elite.git
+Environment SetupIntegrate your Voiceflow API keys.Connect your Toronto MLS data feeds.DeployDesigned for seamless deployment via Vercel for high-availability access.I’m always open to corrections if I get something wrong; the best way to do this is to just tell me what I got wrong, or what I need to know. You can always turn this off in your settings.
